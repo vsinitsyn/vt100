@@ -1,0 +1,16 @@
+#terminal {
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  width: 640px;
+}
+
+.button {
+  border: solid black 1px;
+  background-color: lightgray;
+  color: black;
+  margin: 3px;
+  padding: 2px;
+  text-decoration: none;
+  display: inline-block;
+}
