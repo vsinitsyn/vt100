@@ -1,0 +1,13 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/VT100.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/terminal.js')
+  body(onload='start();', onunload='leave();')
+    h1= title
+    p Hello, #{user.fullName}!
+    div#terminal(tabindex='0')
+    a.button(href='/logout.html') Log Out

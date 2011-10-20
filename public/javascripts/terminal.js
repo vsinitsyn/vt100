@@ -1,10 +1,3 @@
-<html>
-<head>
-<title>vt100 - The JavaScript Terminal</title>
-<link rel="stylesheet" href="styles.css" type="text/css">
-<script src="/socket.io/socket.io.js"></script>
-<script src="VT100.js" type="text/javascript"></script>
-<script type="text/javascript">
 var socket = null;
 
 function start() {
@@ -36,9 +29,3 @@ function leave() {
   }
   socket = null;
 }
-</script>
-<body onload="start();" onunload="leave();">
-<div id="terminal" tabindex="0"></div>
-<a tabindex="1" class="button" onclick="leave();" href="#">Leave</a>
-</body>
-</html>

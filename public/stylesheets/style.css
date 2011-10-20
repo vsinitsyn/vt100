@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form.login label {
+  display: inline-block;
+  width: 100px;
+}
+
+form.login input {
+  display: inline-block;
+}
+
+#messages {
+  border: 2px solid red;
+  margin: 2px;
+  padding: 3px;
+  color: red;
+  width: 300px;
+}
+
+#terminal {
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  width: 640px;
+}
+
+.button {
+  border: solid black 1px;
+  background-color: lightgray;
+  color: black;
+  margin: 3px;
+  padding: 2px;
+  text-decoration: none;
+  display: inline-block;
+}
