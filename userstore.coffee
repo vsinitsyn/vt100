@@ -8,7 +8,4 @@ userDb =
     _pw_hash: '8fe4c11451281c094a6578e6ddbf5eed',
 
 exports.getUser = (login, password) ->
-  if login != '' and userDb[login] and userDb[login]._pw_hash == md5.hex_md5(password)
-    return userDb[login]
-  else
-    return null
+  return userDb[login] if login != '' and userDb[login] and userDb[login]._pw_hash == md5.hex_md5(password)
