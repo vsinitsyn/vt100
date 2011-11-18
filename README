@@ -1,6 +1,6 @@
 vt100-coffeescript
 =====
-A very simple web-based vt100 terminal emulator, built with Node.js, socket.io, Express and CoffeeScript, and meant as an exampe code for an article
+A very simple web-based vt100 terminal emulator, built with Node.js, socket.io, Express and CoffeeScript, and meant as an example code for an article
 
 Usage
 -----
