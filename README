@@ -1,0 +1,15 @@
+vt100-coffeescript
+=====
+A very simple web-based vt100 terminal emulator, built with Node.js, socket.io, Express and CoffeeScript, and meant as an exampe code for an article
+
+Usage
+-----
+# Generate keys for HTTPS
+    openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout vt100-key.pem -out vt100-cert.crt
+# Install dependencies
+    npm install --verbose
+# Run the server
+    npm start
+
+Then open your web browser and connect to
+https://localhost:8000
