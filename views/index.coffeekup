@@ -1,0 +1,5 @@
+h1 @title
+p ->
+  text "Welcome to #{@title}. Click here to "; a href: '/login.html', -> 
+    'Log In'
+  text '.'

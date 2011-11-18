@@ -1,0 +1,17 @@
+{
+    "name": "vt100"
+  , "version": "3.0.0"
+  , "private": true
+  , "engines": {
+      "node": "~0.4.12"
+  }
+  , "dependencies": {
+      "express": "2.4.7"
+    , "connect": "1.7.1"
+    , "socket.io": "0.8.4"
+    , "crypto": ">= 0.0.1"
+    , "coffee-script": "1.1.3"
+    , "coffeekup": "0.3.1"
+  }
+  , "scripts": {"start": "node index.js"}
+}

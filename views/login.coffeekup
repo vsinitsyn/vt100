@@ -1,0 +1,14 @@
+h1 @title
+
+if @messages and @messages != ''
+  div '#messages', -> @messages
+
+form '.login', method: 'post', ->
+  div ->
+    label for: 'username', -> 'Username: '
+    input type: 'text', name: 'username'
+  div ->
+    label for: 'password', -> 'Password: '
+    input type: 'password', name: 'password'
+  div ->
+    input type: 'submit', value: 'Log In'
